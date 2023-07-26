@@ -1,0 +1,108 @@
+section.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+section div.profileContainer{
+  border-radius: 100;
+  width: 320px;
+  border-radius: 160px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  min-height: 310px;
+}
+section div.profileContainer img{
+  width: 550px;
+}
+
+section div.title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section div.title h1{
+  font-size: 48px;
+  line-height: 48px;
+  margin-bottom: 30px;
+}
+
+section div.title h2{
+  display: block;
+  opacity: 0.6;
+  font-size: 48px;
+  line-height: 48px;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 21ch;
+  animation: typing 2s steps(21),
+  blink .5s infinite step-end alternate;
+  overflow: hidden;
+  color: #00d9ffa4;
+}
+
+@keyframes typing{
+  from { width: 0 }
+}
+
+@keyframes blink{
+  50% { border-color: transparent }
+}
+
+section div.iconContainer{
+  display: flex;
+  justify-content: space-between;
+  width: 320px;
+}
+
+section div.iconContainer > a svg{
+  opacity: 0.6;
+  cursor: pointer;
+  transition: all 0.2s;
+  fill: white;
+}
+
+section div.iconContainer svg.iconCV:hover, svg.iconGithub:hover{
+  opacity: 1;
+  fill: #00d9ffa4;
+}
+
+section div.iconContainer svg.iconGithub:hover{
+  opacity: 1;
+  fill: #FFFFFF;
+}
+
+section div.iconContainer svg.iconLinkedin:hover{
+  opacity: 1;
+  fill: #0A66C2;
+}
+
+section div.arrowDown{
+  position: relative;
+}
+
+div.arrowDown svg{
+  object-fit: cover;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse{
+  0%{ 
+    scale: 1; 
+  }
+
+  50%{
+    scale: 1.2;
+  }
+
+  100%{
+    scale: 1;
+  }
+}
+
+
+
