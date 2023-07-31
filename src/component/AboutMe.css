@@ -1,10 +1,9 @@
 section.about {
-  height: auto;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
-  gap: 120px;
+  margin: 50px 0;
+  gap: 100px;
 }
 section.about h3{
   font-size: 48px;

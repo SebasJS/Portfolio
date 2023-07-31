@@ -1,5 +1,6 @@
 import './App.css'
 import { AboutMe } from './component/AboutMe'
+import { Form } from './component/Form'
 import { Projects } from './component/Projects'
 import { Skills } from './component/Skills'
 import { Intro } from './component/intro'
@@ -12,6 +13,7 @@ function App() {
       <AboutMe />
       <Skills />
       <Projects />
+      <Form />
     </div>
   )
 }

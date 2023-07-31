@@ -1,5 +1,5 @@
 *{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -9,4 +9,6 @@ body {
   background-color: #000000;
   font-family: 'Glory', sans-serif;
   min-width: 320px;
+  display: flex;
+  justify-content: center;
 }
